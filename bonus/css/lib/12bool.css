@@ -6,15 +6,16 @@
   margin: 0 auto;
 }
 /* clearfix del container */
-.container {
+.container::after {
   content: "";
-  dispaly: table;
+  display: table;
   clear: both;
 }
 
 /* colonne */
 [class*="col-"] {
   float: left;
+  /* height: 100%; */
 }
 .col-1 {
   width: calc((100% / 12) * 1)

@@ -11,10 +11,10 @@
   background-color: #eaecf0;
   border: 1px solid lightgrey;
 }
-.container-wall {
+.content-wall {
   position: relative;
-  width: 1170px;
-  margin: 0 auto;
+  /* width: 1170px; */
+  /* margin: 0 auto; */
   height: 410px;
   border: 5px solid black;
 }
@@ -36,12 +36,12 @@
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 0;
 }
-.container-wall:hover .layover {
+.content-wall:hover .layover {
   opacity: 1;
   transition: 1s;
   cursor: pointer;
 }
-.container-wall:hover img {
+.content-wall:hover img {
   width: 500px;
   height: auto;
   position: absolute;
