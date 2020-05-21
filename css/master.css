@@ -4,3 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.content {
+  height: 150px;
+  padding: 5px;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+}
+.content-nested {
+  height: 140px;
+  background-color: fuchsia;
+  border: 1px solid white;
+}
+.title {
+  line-height: 150px;
+}
+.content-nested .title {
+  line-height: 140px;
+}
